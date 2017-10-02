@@ -3,6 +3,9 @@ import time     # Used for setting the intervals(3 seconds)
 import hashlib  # Used for converting the file in checksum MD5
 import os       # Used for clearing the terminal
 
+'''
+The user's file input should be in the same directory with this module(exercise_3.py) in order to upload it
+'''
 
 def check_file(file_name): # Simultaneously, checking if the file exists and hashing it with MD5
     md5 = hashlib.md5()
