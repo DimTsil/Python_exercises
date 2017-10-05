@@ -48,7 +48,7 @@ def get_city_score(href):       # Fetching the data which consist of the score t
     return list_of_scores
 
 
-def compare_cities(score_1, score_2): # Counting on how many categories the towns surpasses each other
+def compare_cities(score_1, score_2): # Counting on how many categories the towns surpass each other
     count1 = 0
     count2 = 0
     max_len = len(scores_1['categories'])
